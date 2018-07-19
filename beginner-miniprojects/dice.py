@@ -19,12 +19,10 @@ def main():
             times = 1
     except:
         print("You have to input 2 or 3 integers!")
-
         results = dice_generator(a, b, times)
     for n in results:
         print(n)
 
 
 if __name__ == "__main__":
-   # stuff only to run when not called via 'import' here
    main()
